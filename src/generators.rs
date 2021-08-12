@@ -161,7 +161,7 @@ impl BulletproofGens {
             G_vec: (0..party_capacity).map(|_| Vec::new()).collect(),
             H_vec: (0..party_capacity).map(|_| Vec::new()).collect(),
         };
-        gens.increase_capacity(gens_capacity);
+        gens.increase_capacity(16);
         gens
     }
 
